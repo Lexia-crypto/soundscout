@@ -233,3 +233,7 @@ Replace this section with your real names and actual contributions before submis
 - [ ] All three routes tested
 - [ ] `npm run build` completes successfully
 - [ ] Submit the repository URL and any required screenshots/demo according to your instructor's instructions
+
+## Genre Filter
+
+Users can filter music search results by genre to discover tracks from their preferred music categories.
