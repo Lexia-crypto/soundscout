@@ -11,7 +11,6 @@ const FavoritesContext = createContext(null);
 const STORAGE_KEY = 'soundscout-favorites';
 
 export function FavoritesProvider({ children }) {
-
   const [favorites, setFavorites] = useState(() => {
     try {
       return JSON.parse(

@@ -12,26 +12,24 @@ export default function App() {
     <div className="app-shell">
       <Header />
 
-      <main className="inner-page">
-        <Routes>
-          <Route path="/" element={<Home />} />
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-          <Route
-            path="/favorites"
-            element={<Favorites />}
-          />
+        <Route
+          path="/favorites"
+          element={<Favorites />}
+        />
 
-          <Route
-            path="/track/:id"
-            element={<TrackDetails />}
-          />
+        <Route
+          path="/track/:id"
+          element={<TrackDetails />}
+        />
 
-          <Route
-            path="*"
-            element={<h2>Page Not Found</h2>}
-          />
-        </Routes>
-      </main>
+        <Route
+          path="*"
+          element={<h2>Page Not Found</h2>}
+        />
+      </Routes>
     </div>
   );
 }
